@@ -1,0 +1,25 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#quem-somos {
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.paragrafo {
+	margin-bottom: 20px; 
+}
+
+#paragrafo-qs {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+footer {
+	position: absolute !important;
+	bottom: 0;
+}

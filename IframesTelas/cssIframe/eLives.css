@@ -1,0 +1,15 @@
+body {
+	background-color: #e6e6e6;
+}
+
+.container-z {
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.container-z h2 {
+	margin-bottom: 20px;
+}

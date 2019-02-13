@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area de estudo </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Resumo Pagina">
+	<meta name="keywords" content=" Palavras Chaves ">
+	<link rel="stylesheet" type="text/css" href="cssIframe/reset.css">
+	<link rel="stylesheet" type="text/css" href="cssIframe/iframes.css">
+	<link rel="stylesheet" type="text/css" href="cssIframe/cMonitoria.css">
+
+</head>
+<body>
+	<body>
+		<main>
+		<div>
+			<h1 class="concursos">Concursos</h1>
+			<h2>Monitorias</h2>
+		</div>
+		<div class="container-z">
+			<h2>Professor Convidado - (Fulano)</h2>
+			<img src="img/TeladeVideo.png">
+		
+		<form >
+			<p>Tire suas duvidas com o professor:</p>
+			<textarea cols="80" rows="10" id="texto"></textarea>
+
+			<button id="mandar" value="Mandar">Enviar</button>
+		</form>
+		</div>
+
+	</main>
+
+	<script type="text/javascript">
+		var bto = document.querySelector("#mandar")
+		var form = document.querySelector("form")
+
+		bto.addEventListenner("click", function(form){
+			form.reset();
+		});
+	</script>
+</body>
+</html>

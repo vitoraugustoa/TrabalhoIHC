@@ -1,0 +1,66 @@
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#container-0 img{
+	transform: scale(.6);
+	padding: 5px;
+	margin-top: -10px;
+	padding-bottom: 0px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+
+}
+
+#table table th {
+	color: white;
+	background-color: #0154a2;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.total {
+	background-color: #7733ff !important;
+}
+#table table td {
+
+	color: #0154a2;
+	background-color: #85add1;
+	border-collapse: collapse;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.total {
+	background-color: #7733ff !important;
+	color: white !important ;
+}
+
+.total a {
+	-webkit- transition: .2s;
+	transition: .2s;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #9966ff;
+	border-radius: 15px;
+	border: 1px solid white;
+}
+
+.total a:hover,
+.total a:focus {
+	background-color: white;
+	color: grey;
+}
+
+#table tbody {
+	text-align: center;
+}

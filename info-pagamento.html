@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastre-se e faça sua matricula em nossos cursos</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Resumo Pagina">
+	<meta name="keywords" content="Palavras Chaves">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site2.css">
+	<link rel="stylesheet" type="text/css" href="css/info-pagamentos.css">
+	<link rel="stylesheet" type="text/css" href="fontes/rounded.css">
+</head>
+<body>
+	<main>
+		<section>
+			<div id="titulos-pag"> 
+				<a href="index.html"> </a><p id="titulo-cadastro"> Falta Pouco !!</p>
+			</div>
+
+			<hr/>
+
+			<div id="indice">
+				<a href="login.html"> <p> Inicio </p> </a> <p id="setas-espaco">  >>  </p>
+				<a href="cadastro.html"> <p> Suas informações  </p> </a> <p id="setas-espaco">  >>  </p>
+				<p id="indice-1"> Informações de pagamentos </p> <p id="setas-espaco">  >>  </p>
+				<p> StudiAntes!! </p>
+			</div>
+
+			<hr/>
+
+			<div id="container-pags">
+				<div id="control-abas">
+					<div id="aba-cartoes"> 
+						<img src="img/cartoes.png"  >
+					</div>
+
+					<div id="aba-boleto"> 
+						<img src="img/boleto.png" > 
+					</div>
+
+					<div id="aba-trocar-abas"> 
+						<form action="boleto.html">
+						<input id="btn-troca-abas" type="submit" name="check-boletos" value="Gerar Boleto">
+						</form>
+					</div>
+				</div>
+
+
+					<div id="container-tipos"> 
+
+
+						<p id="p-valor"> 00,00 </p> <p> Total Valor : </p>
+
+						
+
+						<label for="input-numero-cartao"> Numero Cartão: </label>
+						<input id="input-numero-cartao" type="text" name="numero-cartao" placeholder="Digite o numero do cartão">
+
+
+						<div id="org-data">
+							<label for="input-data"> Data de Validade: </label>
+							<input id="input-data" type="text" name="data-validade" placeholder="mm">
+							<input id="input-data2" type="text" name="data-validade" placeholder="aa">
+
+
+							<label for="input-data"> Cod Segurança: </label>
+							<input id="input-data" type="text" name="data-validade" placeholder="cod">
+						</div>
+
+
+						<div id="select-cartoes"> 
+							<label> Tipo de Cartão : </label>
+							<select id="select-cart" name="select-cartoes">
+								<option value="0">-- TIPO  CARTAO--</option>
+								<option value="0"> MASTER CARD </option>
+								<option value=""> VISA  </option>
+								<option value=""> AMERICAN EXPRESS </option>
+								<option value=""> DINERS CLUB </option>
+							</select>
+						</div>
+
+
+						<div id="org-nome"> 
+							<label for="input-data"> Nome do Titular : </label>
+							<input id="input-nome" type="text" name="data-validade" placeholder="Primeiro Nome">
+							<input id="input-nome2" type="text" name="data-validade" placeholder="Sobrenome">
+
+						</div>
+								<form action="confirma-compra.html">
+								<input id="btn-comprar" type="submit"  name="check-boletos" value="Efetuar Compra">
+							</form>
+
+					</div>
+
+
+				</div>
+
+
+
+		</section>
+	</main>
+
+	<footer>
+		<p> &copy;StudiAntes 2017 <em> orem ipsum dolor sit amet, consectetur adipiscing elit </em> </p> 
+	</footer>
+
+
+</body>
+</html>

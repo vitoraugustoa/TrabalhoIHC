@@ -1,0 +1,37 @@
+body {
+	background-color: #e6e6e6;
+}
+
+.container-z {
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.container-z h2 {
+	margin-bottom: 20px;
+}
+
+.container-z textarea {
+	margin-top: 5px;
+}
+
+.container-z p {
+	margin-top: 20px;
+}
+
+.container-z button {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.container-z button:hover,
+.container-z button:focus {
+	box-shadow: 0 0 10px black;
+}
+.container-z textarea:focus{
+    background-color: #86d3c9;
+}

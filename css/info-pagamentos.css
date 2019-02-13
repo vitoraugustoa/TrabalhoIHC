@@ -1,0 +1,392 @@
+body {
+	background-image: url(../img/carbon_fibre_v2.png);
+
+}
+
+@font-face {
+    font-family: 'rounded_eleganceregular';
+    src: url('fontes/rounded_elegance-webfont.woff2') format('woff2'),
+         url('fontes/rounded_elegance-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+section {
+
+	width: 70%;
+	height: 470px;
+	margin-top: 5%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 150px;
+	border-radius: 30px;
+	padding-top: 0.1px;
+	padding-left: 48px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	background-color:#e8e8e8;
+	box-shadow: 2px 2px 3px 2px #a19e9e;
+	display: block;
+
+
+}
+
+#titulos-pag  {
+
+	align-items:center; 
+	display: flex;
+	padding-left: 12px;
+	font-family: rounded_eleganceregular;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+#titulos-pag p {
+
+	font-family: rounded_eleganceregular;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+#titulos-pag a {
+	width: 23%;
+	height: 50px;
+	background-image: url(../img/LogoStudiAntesPaginas.png);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 10px;
+	display: inline-flex;
+
+}
+
+#pag-titulo {
+	margin-left:22px;
+	margin-top: 12px;
+	font-size: 20px;
+
+}
+
+#container-pags {
+	width: 98%;
+
+	/*background-color: yellow;*/
+	padding-bottom: 20px;
+
+
+}
+
+
+hr {
+	height: 1px;
+	width: 96%; 
+	background-color: #a19e9e;
+
+
+}
+
+
+#control-abas {
+	display: flex;
+	padding-left: 70px;
+
+}
+
+a:link ,  a:visited {
+
+text-decoration: none;
+color:black;
+
+}
+
+#indice {
+	display:flex;
+	padding-top: 12px;
+	font-family: rounded_eleganceregular;
+	font-size:16px;
+	padding-left:14px;
+
+}
+
+
+#indice-1 {
+	font-weight: bold;
+	font-style: italic;
+
+
+}
+
+#aba-cartoes {
+
+	width: 20%;
+	height: 50px;
+	margin-left: -19px;
+	background-color: #e8e8e8;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	box-shadow:1px 1px 1px 2px #5d5d5d;
+	margin-top:20px;
+}
+
+#aba-cartoes img {
+	width: 90%; 
+	height:auto;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 13px;
+
+}
+
+#aba-boleto img {
+	width: 70%; 
+	height:35px;
+	margin-left: 16px;
+	margin-right:auto;
+	margin-top: 7px;
+
+}
+
+#aba-boleto {
+
+	width:20%;
+	height: 50px;
+	margin-left: 10px;
+	/*background-color: red;*/
+	margin-top:20px;
+
+}
+
+#aba-trocar-abas {
+	width: 50%;
+	height: 50px;
+	/*background-color:grey;*/
+	margin-top:20px;
+}
+
+
+#btn-troca-abas {
+	width: 80%;
+	height: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px 1px #5d5d5d;
+}
+
+#btn-troca-abas:hover {
+	box-shadow: inset 1px 1px 2px #393939;
+}
+
+
+
+
+#container-tipos-boleto {
+	display: none;
+	width: 82%;
+	height: 250px;
+	background-color: green;
+	margin-left: auto;
+	margin-right:auto; 
+	display: flex;
+
+}
+
+#container-tipos {
+
+	display: block;
+	padding-top: 12px;
+	width: 87%;
+	height: 290px;
+	background-color: #e8e8e8;
+	margin-left: auto;
+	border-radius: 12px;
+	box-shadow: 2px 2px 3px 2px #5d5d5d;
+	margin-right:auto; 
+
+}
+
+#container-tipos p {
+		font-family: rounded_eleganceregular;
+		margin-right: 20px;
+		float:right;
+}
+
+#p-valor {
+
+font-weight: bold;
+
+
+}
+
+
+label[for=input-numero-cartao],
+label[for=input-data] {
+	margin-left: 20px;
+
+}
+
+
+#org-data , #org-nome , #org-boleto  {
+	display: flex;
+}
+
+
+label[for=input-data] {
+
+	margin-top: 20px;
+}
+
+#btn-comprar {
+
+	width: 50%;
+	height: 30px;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	margin-left: 140px;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px 1px #5d5d5d;
+
+
+}
+
+#btn-comprar:hover {
+
+	box-shadow: inset 1px 1px 2px #393939;
+
+}
+
+#input-nome , #input-nome2 {
+	margin-top: 12px;
+	outline: none;
+	width: 30%;
+	height: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	font-family: rounded_eleganceregular;
+	font-size: 16px;
+	font-color:#c5c5c5;
+	padding-left: 12px;
+	padding-top: 4px;
+
+}
+
+
+
+
+
+#input-data , #input-data2{
+
+	margin-top: 12px;
+	outline: none;
+	width: 10%;
+	height: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	font-family: rounded_eleganceregular;
+	font-size: 16px;
+	font-color:#c5c5c5;
+	padding-left: 12px;
+	text-transform: uppercase;
+	padding-top: 4px;
+}
+
+
+
+
+#input-numero-cartao {
+	margin-top: 20px;
+	outline: none;
+	width: 38%;
+	height: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	font-family: rounded_eleganceregular;
+	font-size: 16px;
+	font-color:#c5c5c5;
+	padding-left: 12px;
+
+
+}
+
+
+#input-numero-cartao:hover , #select-cart:hover ,
+ #input-nome:hover , #input-nome2:hover ,
+ #input-data:hover , #input-data2:hover {
+
+	border-color: #5d5d5d;
+	transition: 1.0s;
+}
+
+#input-numero-cartao:focus , #select-cart:focus , 
+#input-nome:focus , #input-nome2:focus ,
+#input-data:focus , #input-data2:focus{
+	outline: none;
+	border-color: #5d5d5d;
+	transition: 1.0s;
+}
+
+
+label {
+
+		font-family: rounded_eleganceregular;
+		margin-right: 12px;
+		font-weight: bold;
+
+
+}
+
+#select-cartoes {
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 12px;
+}
+
+#select-cart {
+	font-family: rounded_eleganceregular;
+	outline: none;
+	width: 38%;
+	height: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	font-family: rounded_eleganceregular;
+	font-size: 16px;
+	font-color:#c5c5c5;
+	padding-left: 12px;
+
+
+}
+

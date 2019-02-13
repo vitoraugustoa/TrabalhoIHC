@@ -1,0 +1,274 @@
+body {
+	background-image: url(../img/carbon_fibre_v2.png);
+
+}
+#logar-principal {
+
+	width:100%;
+	height:450px;
+	background-image: url(../img/Logar3.png);
+	margin-top: 10%;
+	padding: 0px;
+	box-shadow: 1px 2px 3px 4px #a19e9e;
+
+}
+
+#logar-principal img {
+	transform:scale(1.1); 
+	margin-top: 70px;
+	margin-left: 65px;
+
+}
+
+@font-face {
+    font-family: 'rounded_eleganceregular';
+    src: url('fontes/rounded_elegance-webfont.woff2') format('woff2'),
+         url('fontes/rounded_elegance-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#login-1 p {
+
+	font-family: rounded_eleganceregular;
+	font-size:140%;
+	padding-left: 12px;
+	text-align:left;
+	display: inline;
+}
+
+#login-1 {
+
+	width:43.7%;
+	height:370px;
+	right: 50px;
+	margin-top: 40px;
+	position: absolute;
+	background-color: #8f8f8f;
+	display: inline-block;
+	border-radius: 30px;
+	box-shadow: 2px 2px 5px 2px #a19e9e;
+}
+
+
+#login-1:hover {
+
+	transition: 1.0s;
+	box-shadow: 2px 2px 5px 2px #333333;
+
+}
+
+#login-2 {
+	width:100%;
+	height:40px;
+	padding-top: 10px;
+	background-color:#f7f7f7;
+	border-radius: 30px;
+	display: flex;
+	align-items:center; 
+	box-shadow: 1px 1px 5px #a19e9e;
+
+}
+
+
+#login-1 form {
+	margin-right: auto;
+	margin-left: 50px;
+	padding: none;
+	margin-top: 70px
+}
+
+#login-1 form:hover, form:focu {
+	margin-right: auto;
+	margin-left: 50px;
+	padding: none;
+	margin-top: 70px;
+	transition:2.0s;
+
+}
+
+#text-login {
+	width: 39%;
+	height: 37px;
+	border-radius: 20px;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px #333333;
+	margin-bottom: 12px;
+	font-family: rounded_eleganceregular;
+	font-color:#c5c5c5;
+}
+
+#text-senha {
+	width: 39%;
+	height: 37px;
+	border-radius: 20px;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px #333333;
+	font-family: rounded_eleganceregular;
+	font-color:#c5c5c5;
+}
+
+#text-senha label {
+	margin-top: -50px;
+
+}
+
+
+#text-senha:hover,#text-senha:focus {
+	width: 70%;
+	border-color: #5d5d5d;
+	box-shadow: 3px 3px 5px #333333;
+	transition: 0.6s;
+}
+
+#text-senha:focus {
+	width: 70%;
+	border-color: #5d5d5d;
+	box-shadow: 3px 3px 5px #333333;
+	transition: 0.6s;
+
+}
+
+
+#text-login:hover,#text-login:focus {
+	width: 70%;
+	border-color: #5d5d5d;
+	box-shadow: 3px 3px 5px #333333;
+	transition: 0.6s;
+}
+
+
+#text-login:focus {
+	width: 70%;
+	border-color: #5d5d5d;
+	box-shadow: 3px 3px 5px #333333;
+	transition: 0.6s;
+
+}
+
+#icones-logar {
+	width: 25px;
+	height: 25px;
+
+}
+
+#Links-login {
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+#botao-enviar {
+	margin-left:98px;
+	margin-top: 32px;
+	width: 50%;
+	height: 40px;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	font-weight: bold;
+	border-width: 2px;
+	box-shadow: 3px 3px 5px 1px #a19e9e;
+	border-radius: 20px;
+
+}
+
+
+#botao-enviar:hover {
+	width: 52%;
+	height: 43px;
+	margin-left:98px;
+	margin-top: 32px;
+	background-color: #5d5d5d;
+	box-shadow: 0px 3px 5px #333333;
+	transition: 0.5s;
+
+	}
+
+form label {
+	
+
+}
+
+form label img {
+	width:30px;
+	height:29px;
+
+}
+
+label{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+label[for="text-login"],
+label[for="text-senha"],
+label[for="mensagem"]{
+    display: block;
+}
+
+#assunto-fieldset{
+    padding-top: 1em;
+}
+
+input[id="text-login"],
+input[id="text-senha"],
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: .25em .5em;
+    padding-left: 12px;
+    width: 60%;
+}
+
+input:invalid{
+    box-shadow: 0px 0px 5px red;
+}
+
+
+.com-icone::after {
+    content: '';
+    width: 3em;
+    height: 3em;
+    background-size: 60% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 115%;
+    left: 0;
+}
+.com-icone {
+    position: relative;
+    bottom: 10px;
+    left: 6.5px;
+}
+.com-icone + input {
+    position: relative;
+    left: 3em;
+    width: calc(60% - 3em);
+}
+.com-icone[for="text-login"]::after {
+    background-image: url(../img/IconesLoginTrab.png);
+}
+
+.com-icone[for="text-senha"]::after {
+    background-image: url(../img/IconesLogarTrabnew.png);
+}
+
+footer {
+
+	position: fixed;
+	bottom:0;
+	left:0;
+}

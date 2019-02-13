@@ -1,0 +1,184 @@
+body {
+	background-image: url(../img/carbon_fibre_v2.png);
+
+}
+
+@font-face {
+    font-family: 'rounded_eleganceregular';
+    src: url('fontes/rounded_elegance-webfont.woff2') format('woff2'),
+         url('fontes/rounded_elegance-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main > img {
+	width: 80%;	
+	margin-left: 120px;
+	margin-top:30px;
+
+}
+
+
+#area-conteudo {
+	width: 80%;
+	height: 470px;
+	margin-left: 118px;
+	margin-top: 50px;
+	/*background-color: yellow;*/
+	display: flex;
+	padding:20px;
+}
+
+
+#foto-aluno {
+	width: 30%;
+	height: 230px;
+	/*background-color: red;*/
+	border-radius: 50px;
+}
+
+#foto-aluno img {
+	width: 80%;
+	margin-left: 29px;
+	border-radius: 30px;
+
+}
+
+#foto-aluno input[type="button"] {
+
+margin-left: 190px;
+border-radius: 20px;
+width: 100px;
+outline: none;
+font-family: rounded_eleganceregular;
+padding-top:5px;
+font-weight: bold;
+
+}
+
+input[value="Editar Informacoes"] {
+
+margin-left: 90px;
+border-radius: 20px;
+width: 40%;
+outline: none;
+font-family: rounded_eleganceregular;
+padding-top:5px;
+font-weight: bold;
+
+}
+
+#info-aluno-top input[name="editar-foto-aluno"] {
+
+margin-left: 220px;
+border-radius: 20px;
+width: 70px;
+outline: none;
+font-family: rounded_eleganceregular;
+padding-top:5px;
+font-weight: bold;
+
+
+}
+
+#info-aluno-top img {
+	width: 23%;
+	height: 50px;
+	margin-bottom: 40px;
+}
+
+#info-aluno-top {
+
+	width: 66%;
+	height:  490px;
+	background-color: #e8e8e8;
+	border-radius: 12px;
+	box-shadow: 2px 2px 3px 2px #5d5d5d;
+	margin-left: 70px;
+	padding:30px;
+
+
+}
+
+
+#linha-aluno-bottom {
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-color: black;
+
+
+}
+
+
+
+p {
+	font-family: rounded_eleganceregular;
+	display: inline-block;
+	font-size: 26px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	color:#383737;
+}
+
+#btn-comprar {
+
+	width: 50%;
+	height: 50px;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	margin-left: 140px;
+	font-weight: bold;
+	margin-top: 40px;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: 1px 2px 5px 2px #5c5c5c;
+
+
+}
+
+#btn-comprar:hover {
+
+	box-shadow:3px 3px 5px #0094fb;
+	border-color: #0094fb;
+
+}
+
+
+#negrito {
+	font-weight: bold;
+
+}
+
+a:link ,  a:visited {
+
+text-decoration: none;
+color:black;
+
+}
+
+hr {
+
+	height: 1px;
+	width: 50%; 
+	background-color: #a19e9e;
+	margin-left: 100px;
+	margin-bottom: 20px;
+
+}
+
+a:hover {
+
+	font-size: 27px;
+	transition: 0.6s;
+	color:#0094fb;
+}
+
+/*#info-aluno-bottom {
+	width: 95%;
+	height: 230px;
+	background-color: orange;
+} */
+

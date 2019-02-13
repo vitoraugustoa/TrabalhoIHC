@@ -1,0 +1,359 @@
+body {
+	background-image: url(../img/carbon_fibre_v2.png);
+
+}
+
+@font-face {
+    font-family: 'rounded_eleganceregular';
+    src: url('fontes/rounded_elegance-webfont.woff2') format('woff2'),
+         url('fontes/rounded_elegance-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#cadastro-principal {
+
+	width: 70%;
+	height: auto;
+	margin-top: 5%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	border-radius: 30px;
+	padding-top: 0.1px;
+	background-color:#e8e8e8;
+	box-shadow: 2px 2px 3px 2px #a19e9e;
+	display: block;
+
+}
+
+
+#select-vestibular,#select-concurso,#select-enem {
+
+	display: none;
+	margin-top: 12px;
+}
+
+#checkorg1 {
+	margin-left:29%;
+	margin-top:-30px;
+	margin-bottom: 5px;
+	width: 30px;
+}
+
+#checkorg2 {
+	margin-right: 15px;
+	margin-bottom: 20px;
+
+}
+
+#cadastro-titulo p {
+	font-family: rounded_eleganceregular;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 77px;
+
+}
+
+#cadastro-titulo {
+	width: 98.5%;
+	height: 50px;
+	background-color: #e8e8e8;
+	border-radius: 30px;
+	box-shadow: 4px 2px 1px 0px #a19e9e;
+	align-items:center; 
+	display: flex;
+	padding-left: 12px;
+	font-family: rounded_eleganceregular;
+
+}
+
+ #titulo-cadastro { 
+
+	margin-left:5px;
+	margin-top: 12px;
+	font-size: 20px;
+
+
+}
+
+#logo-cadastro {
+
+	width: 20%;
+	height: 110px;
+	margin-left: 23px;
+
+}
+
+#cadastro-titulo a {
+	background-image: url(../img/LogoStudiAntesPaginas.png);
+	background-size: 120px;
+	background-repeat: no-repeat;
+	margin-left: 12px;
+	margin-right: 10px;
+	width: 120px;
+	height:40px;
+}
+
+#select-vest  , #select-ene , #select-conc{
+	width: 40%;
+	height: 25px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	outline: none;
+}
+
+#conteudo-cadastro {
+	width: 80%;
+	height: 700px;
+	margin-top: 55px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+
+}
+
+#radio-conta-gratuita,#radio-conta-paga{
+margin-right:19px; 
+margin-left: 19px;
+}
+
+#form-cadastro{
+	font-family: rounded_eleganceregular;
+
+
+}
+
+
+
+#radio-conta-gratuita, #radio-conta-paga {
+
+		width: 30px;
+		height: 37px;	
+		margin-left: 44%;
+		margin-top: 20px;
+
+}
+
+
+#input-nome , #input-email, #input-usuario,
+#input-senha, #input-cpf  {
+	outline: none;
+	margin-left:28%;
+	width: 38%;
+	height: 37px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 4px;
+	box-shadow: 3px 3px 5px 1px #333333;
+	font-family: rounded_eleganceregular;
+	padding-left: 12px;
+	font-size: 16px;
+	font-color:#c5c5c5;
+
+}
+
+#input-nome:hover , #input-email:hover, #input-usuario:hover,
+#input-senha:hover {
+	margin-left:28%;
+	outline: none;
+	width: 50%;
+	border-color: #5d5d5d;
+	height: 37px;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-width: 6px;
+	transition: 1.0s;
+}
+
+#btn-proximo {
+	position: initial;
+	margin-left: 90px;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 30%;
+	outline: none;
+	height: 40px;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	font-weight: bold;
+	border-width: 2px;
+	box-shadow: 3px 3px 5px 1px #a19e9e;
+	border-radius: 20px;
+
+}
+
+#btn-proximo2 {
+	margin-top: 40px;
+	width: 30%;
+	height: 40px;
+	outline: none;
+	text-transform: uppercase;
+	font-family: rounded_eleganceregular;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+	border-width: 2px;
+	box-shadow: 3px 3px 5px 1px #a19e9e;
+	border-radius: 20px;
+
+}
+
+#org-btn {
+
+	display: inline;
+
+}
+#btn-proximo:hover, #btn-proximo2:hover  {
+	box-shadow:3px 3px 5px #5d5d5d ;
+	border-color: #5d5d5d;
+
+
+
+}
+
+
+#indice {
+	display:flex;
+	padding-top: 12px;
+	font-family: rounded_eleganceregular;
+	font-size:16px;
+	padding-left:14px;
+
+}
+
+#setas-espaco {
+	margin-left: 4px ;
+	margin-right: 4px;
+
+
+
+}
+
+
+#indice-1 {
+	font-weight: bold;
+	font-style: italic;
+
+
+}
+a:link ,  a:visited {
+
+text-decoration: none;
+color:black;
+
+
+}
+
+hr {
+	height: 1px;
+	width: 96%; 
+	background-color: #a19e9e;
+
+
+}
+
+
+#input-nome:focus , #input-email:focus, #input-usuario:focus,
+#input-senha:focus, #input-cpf:focus {
+	margin-left:28%;
+	width: 50%;
+	outline: none;
+	height: 37px;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	border-bottom-color: black;
+	border-bottom-width: 6px;
+	transition: 1.0s;
+}
+
+#conteudo-check {
+	display: none;
+	margin-top: 30px;
+	margin-left:28%;
+
+}
+
+#check-enem, #check-vestibular , #check-concurso {
+	width: 20px;
+	height: 20px;	
+	margin-top: 12px;
+	
+
+}
+
+input[value="pago"]:checked + fieldset {
+	display: block;
+
+}
+
+label{
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+label[for="input-nome"],
+label[for="input-email"],
+label[for="input-usuario"],
+label[for="input-senha"],
+label[for="radio-conta"],
+label[for="input-cpf"]
+{
+	margin-right:auto; 
+	margin-left:28%;
+    display: block;
+    outline: none;
+}
+
+#assunto-fieldset{
+    padding-top: 1em;
+}
+
+label[for="check-vestibular1"],label[for="check-enem1"],
+label[for="check-concurso1"] {
+
+margin-left: 0px;
+margin-top: 20px;
+
+
+}
+
+label[for="input-nome"],
+label[for="input-email"],
+label[for="input-usuario"],
+label[for="input-senha"],
+label[for="radio-conta"],
+label[for="check-enem1"],
+label[for="check-vestibular1"],
+label[for="input-cpf"],
+label[for="check-concurso1"],
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: .25em .5em;
+    outline: none;
+    width: 60%;
+}
+
+
+label[for="check-enem1"],
+label[for="check-vestibular1"],
+label[for="check-concurso1"] {
+	font-family: inherit;
+    box-sizing: border-box;
+    outline: none;
+    width: 60%;
+    margin-top: -5px;
+
+}
+
+input:invalid{
+    box-shadow: 0px 0px 5px red;
+}

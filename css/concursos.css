@@ -1,0 +1,21 @@
+body {
+    background-color: #01a78f;
+}
+
+#container-1 ul li a{
+    -webkit- transition: .5s;
+    transition: .5s;
+    padding: 20px 100px;
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: #01a78f;
+}
+
+#container-1 ul li a:hover,
+#container-1 ul li a:focus {
+    color: #01a78f;
+    border: 5px solid #01a78f;
+    background-color: white;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area de estudo </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Resumo Pagina">
+    <meta name="keywords" content=" Palavras Chaves ">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/compras.css">
+    <link rel="stylesheet" type="text/css" href="css/area-estudos.css">
+</head>
+<body>
+    <header>
+        <div class="containerSecundario">  
+            <!-- Barra de menu2 -->
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="fale-conosco.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container-A">
+            <div>
+                <div class="menuLateral">
+                    <button class="dropbtn" id="Enem">Enem</button>
+                    <div class="dropdown-content" id="Enem-lista">
+                        <a href="IframesTelas/eLives.html" target="estudar">Live</a>
+                        <a href="IframesTelas/eAulas.html" target="estudar">Aulas Gravadas</a>
+                        <a href="IframesTelas/eMonitoria.html" target="estudar">Monitoria</a>
+                        <a href="IframesTelas/eRevisao.html" target="estudar">Revisão de Materia</a>
+                    </div>
+                </div>
+                <div class="menuLateral">
+                    <button class="dropbtn" id="Vestibulares">Vestibulares</button>
+                    <div class="dropdown-content" id="Vestibulares-lista">
+                        <a href="IframesTelas/vLives.html" target="estudar">Live</a>
+                        <a href="IframesTelas/vAulas.html" target="estudar">Aulas Gravadas</a>
+                        <a href="IframesTelas/vMonitoria.html" target="estudar">Monitoria</a>
+                        <a href="IframesTelas/vRevisao.html" target="estudar">Revisão de Materia</a>
+                    </div>
+                </div>
+                <div class="menuLateral">
+                    <button class="dropbtn" id="Concursos">Concursos</button>
+                    <div class="dropdown-content" id="Concursos-lista">
+                        <a href="IframesTelas/cAulas.html" target="estudar">Aulas Gravadas</a>
+                        <a href="IframesTelas/cMonitoria.html" target="estudar">Monitoria</a>
+                        <a href="IframesTelas/cRevisao.html" target="estudar">Revisão de Materia</a>
+                    </div>
+                </div>
+            </div>
+            <div id="containerImagem">
+                <img src="img/AreaEstudo.png" width="800">
+            </div>
+        </div>
+        
+        <div id="container-B">
+            <iframe src="IframesTelas/default.html" name="estudar" width="80%" height="900"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>Para entrar em contato conosco, <a id="clique-aqui" href="fale-conosco.html">clique aqui</a></p>
+        <p id="copy"> &copy;StudiAntes 2017 </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastre-se e faça sua matricula em nossos cursos</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Resumo Pagina">
+	<meta name="keywords" content=" Palavras Chaves ">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site2.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+	<link rel="stylesheet" type="text/css" href="fontes/rounded.css">
+</head>
+<body>
+	<main>
+		<section id="cadastro-principal">
+			<div id="cadastro-titulo">
+				<a href="index.html" >  </a><p id="titulo-cadastro"> Faça seu Cadastro e sua Matricula </p>
+			</div>
+
+			<div id="indice">
+				<a href="login.html"> <p> Inicio </p> </a> <p id="setas-espaco">  >>  </p>
+				<a href="#"> <p id="indice-1"> Suas informações  </p> </a> <p id="setas-espaco">  >>  </p>
+				<p> Informações de pagamentos </p> <p id="setas-espaco">  >>  </p>
+				<p> StudiAntes!! </p>
+			</div>
+
+			<hr/>
+			<div id="conteudo-cadastro"> 
+
+				<form id="form-cadastro" action="info-pagamento.html">
+
+					<label for="input-nome"> Nome Completo: </label>
+					<input id="input-nome" type="text" name="nome-usuario" placeholder="Digite seu nome completo">
+
+					<label for="input-email"> E-Mail: </label>
+					<input id="input-email" type="text" name="email" placeholder="Digite seu E-mail">
+
+					<label for="input-cpf"> CPF: </label>
+					<input id="input-cpf" type="text" name="CPF" placeholder="Digite seu CPF">
+
+					<label for="input-usuario"> Usuario: </label>
+					<input id="input-usuario" type="text" name="usuario" placeholder="Digite o seu nome Usuario">
+
+					<label for="input-senha"> Senha: </label>
+					<input id="input-senha" type="password" name="senha" placeholder="Digite sua senha">
+
+
+
+					<label for="radio-conta"> Tipo de Conta inicial: </label>
+					<input  id="radio-conta-gratuita" type="radio" onclick="Mudarestado2('conteudo-check')" value="gratuito" name="tipo-conta"><p id="checkorg1" > Gratuito </p>
+					<input  id="radio-conta-paga" type="radio" onclick="Mudarestado('conteudo-check')" value="pago" name="tipo-conta"> <p id="checkorg1"> Pago </p> 
+
+					<div id="conteudo-check">
+						<fieldset id="fild-checkbox"> 
+							<legend>
+								Filtre os pacotes que deseja. 
+
+							</legend>
+
+							<label for="check-enem1"> Enem </label>
+							<input id="check-enem" type="checkbox" onfocus="Mudarestado2('select-enem')" onclick="Mudarestado('select-enem')"  name="curso-enem">
+
+							<label for="check-vestibular1"> Vestibular</label>
+							<input id="check-vestibular" type="checkbox" onfocus="Mudarestado2('select-vestibular')" onclick="Mudarestado('select-vestibular')" name="curso-vestibular">
+
+							<label for="check-concurso1"> Concurso</label>
+							<input id="check-concurso" type="checkbox" onfocus="Mudarestado2('select-concurso')" onclick="Mudarestado('select-concurso')"  name="curso-concurso"> 
+
+						</fieldset>
+
+
+						
+
+
+
+						<div id="select-enem"> 
+
+							<select id="select-ene" name="select-enem">
+								<option value="0">-- ENEM 2hrs/dia (00,00) --</option>
+								<option value="masculino">-- ENEM  4hrs/dia (00,00) --</option>
+								<option value="">-- ENEM Sem limites (00,00) --</option>
+							</select>
+
+
+						</div>
+
+
+
+						<div id="select-vestibular"> 
+
+							<select id="select-vest" name="select-vestibular">
+								<option value="0">-- Vestibular 2hrs/dia (00,00) --</option>
+								<option value="">-- Vestibular 4hrs/dia (00,00) --</option>
+								<option value="">-- Vestibular Sem limites (00,00) --</option>
+							</select>
+
+
+						</div>
+
+
+
+						<div id="select-concurso"> 
+
+							<select id="select-conc" name="select-concurso">
+								<option  value="0">-- Concurso 2hrs/dia (00,00) --</option>
+								<option value="">-- Concurso 4hrs/dia (00,00) --</option>
+								<option value="">-- Concurso Sem limites (00,00) --</option>
+
+							</select>
+
+						</div>
+
+					</div>
+
+					<input id="btn-proximo" type="submit" name="Proximo" value="Proximo">
+
+
+				</form>
+
+
+
+
+
+
+			</div>
+
+
+		</section>
+	</main>
+
+	<footer>
+		<p> &copy;StudiAntes 2017 <em> orem ipsum dolor sit amet, consectetur adipiscing elit </em> </p> 
+	</footer>
+
+	<script type="text/javascript">
+
+
+		
+
+		function Mudarestado2(el) {
+			var display = document.getElementById(el).style.display;
+
+			document.getElementById(el).style.display = 'none';
+
+		}
+
+		function Mudarestado(el) {
+			var display = document.getElementById(el).style.display;
+			if(display == "none")
+				document.getElementById(el).style.display = 'block';
+			else
+				document.getElementById(el).style.display = 'none';
+		}
+
+	</script>
+</body>
+</html>

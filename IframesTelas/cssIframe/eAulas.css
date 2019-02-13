@@ -1,0 +1,27 @@
+body {
+	background-color: #e6e6e6;
+}
+
+.Aulas {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+.Aulas div {
+	margin: 20px;
+}
+
+.Aulas div h3 {
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.Aulas div:nth-of-type(4n + 1){
+	margin-left: 110px; 
+}
+

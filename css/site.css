@@ -1,0 +1,198 @@
+body{
+    background-image: url(../img/carbon_fibre_v2.png);
+}
+
+h1, p {
+    font-family: 'rounded_eleganceregular';
+    color: white;
+}
+
+@font-face {
+    font-family: 'rounded_eleganceregular';
+    src: url('fontes/rounded_elegance-webfont.woff2') format('woff2'),
+         url('fontes/rounded_elegance-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header {
+
+   font-family: rounded_eleganceregular;
+   font-size: 100%;
+}
+
+
+
+#logo a {
+    width: 100%;
+    height: 100%;
+    text-indent: 
+}
+
+.containerPrincipal {
+	width:100%;
+	height:85px;
+	margin: 0;
+	background-color: #0154a2;	
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+
+	width:150px;
+	height:60px;
+	margin:12px;
+	display: inline-block;
+}
+
+#img-logo{
+    width: 454px;
+    height: 340px;
+    position: relative;
+    bottom: 145px;
+    right: 120px;
+    transform: scale(0.4) rotate(-7deg);
+}
+
+#procurar{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;    
+}
+
+label[for="procurar"] {
+    position: relative;
+    top: 10px;
+}
+
+#procura {
+	display:inline-block;
+	margin-left: 300px;
+}
+
+#usuario a{
+    -webkit- transition: .2s;
+    transition: .2s;
+    padding: 7px 25px;
+    margin-right: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: #01a78f;
+}
+
+#usuario a:hover,
+#usuario a:focus {
+    border: 3px solid #01a78f;
+    color: #01a78f;
+    background-color: white;
+}
+}
+
+#icone-usuario{
+    background-color: white;
+    border-radius: 100%;
+    
+}
+
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #111;
+}
+
+.subtitulo-pagina-principal {
+	text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+footer {
+	width: 100%;
+	height: 80px;
+	background: #333;
+    bottom: 0;
+    position: relative;    
+}
+
+footer p {
+	text-align: justify;
+    padding-left: 10px;
+    font-size: 110%;
+    padding-top:10px;
+    padding-left: 10px;
+    
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#copy {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.titulo-principal {
+    margin-top: 20px;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.paragrafo {
+    line-height: 1.7;
+    text-indent: 6ch;
+}
+
+input {
+    outline: none;
+}
+
+
+#logo-logo {
+    margin-left: 15px;
+}

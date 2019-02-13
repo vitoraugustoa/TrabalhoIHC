@@ -1,0 +1,223 @@
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#titulo-cursos{
+	-webkit- transition: 1s;
+	transition: 1s;
+	background-color: #999999;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#titulo-cursos div img{
+	margin: auto;
+}
+
+#lista-buttons {
+		margin-top: 30px;
+}
+
+#lista-buttons li {
+	display: inline;
+}
+
+#lista-buttons li:nth-of-type(2) {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#lista-buttons li a{
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 130%;
+	border: 2px solid;
+	border-radius: 15px;
+}
+
+#enem-a a{
+	background-color: #0154a2;
+}
+
+#enem-a a:hover,
+#enem-a a:focus {
+	background-color: white;
+	color: #0154a2;
+}
+
+#vestibulares-a a {
+	background-color: #0091d0;
+}
+
+#vestibulares-a a:hover,
+#vestibulares-a a:focus {
+	background-color: white;
+	color: #0091d0;
+}
+
+#concursos-a a {
+	background-color: #01a78f;
+}
+
+#concursos-a a:hover,
+#concursos-a a:focus {
+	background-color: white;
+	color: #01a78f;
+}
+
+.cursos {
+	color: white;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	box-sizing: border-box;
+}
+footer {
+	border-top: 5px solid black; 
+}
+
+.cor-enem {
+	background-color: #0154a2;
+}
+
+.cor-concursos {
+	background-color: #01a78f;
+}
+
+.cor-vestibulares {
+	background-color: #0091d0;
+}
+
+.abertura {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.abertura p {
+	text-indent: 5ch;
+	line-height: 1.6;
+	padding: 20px 60px;
+}
+
+.pacotes {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.pacotes ul {
+	padding: 30px;
+	margin-left: -10em;
+}
+
+.pacotes p {
+	font-size: 200%;
+}
+
+.pacotes ul li{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.pacotes a {
+	-webkit- transition: .2s;
+	transition: .2s;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 130%;
+	border: 3px solid white;
+	border-radius: 15px;
+	color: white;
+}
+
+.cor-concursos a:hover,
+.cor-concursos a:focus {
+	background-color: white;
+	color: #01a78f;
+}
+
+.cor-enem a:hover,
+.cor-enem a:focus {
+	background-color: white;
+	color: #0154a2;
+}
+
+.cor-vestibulares a:hover,
+.cor-vestibulares a:focus {
+	background-color: white;
+	color: #0091d0;
+}
+
+#enem {
+	position: relative;
+}
+
+#concursos {
+	position: relative;
+}
+
+#vestibulares {
+	position: relative;
+}
+
+#voltar-top-ajuste {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#voltar-top-ajuste li {
+	display: inline-block;
+}
+
+#voltar-top-ajuste a {
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;	
+    display: block;
+    text-indent: -99999px;
+    position: relative;
+    background-image: url(../img/DedoPraCima.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+#voltar-top-ajuste a:hover,
+#voltar-top-ajuste a:focus {
+	background-color: #999999;
+}
+
+#titulo-cursos img,
+#enem img,
+#concursos img,
+#vestibulares img {
+	-webkit- transition: .5s;
+	transition: .5s;
+}
+
+
+#enem img:focus,
+#enem img:hover,
+#concursos img:focus,
+#concursos img:hover,
+#vestibulares img:focus,
+#vestibulares img:hover {
+	transform:translate(1.5em, 1.5em) scale(1.2)	
+}
+
+#titulo-cursos img:focus,
+#titulo-cursos img:hover {
+	transform:scale(1.2);
+}

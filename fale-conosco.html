@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fale Conosco</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Resumo Pagina">
+	<meta name="keywords" content=" Palavras Chaves ">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/fale-conosco.css">
+</head>
+<body>
+	<header>
+        <div class="containerPrincipal"> 
+            <!-- Barra de menu 1 -->
+            <a id="logo-logo" href="index.html"><img src="img/LogoSemCaderno.png"></a>
+
+            <form id="procura"> <!-- Barra de pesquisa -->
+                
+                <label for="procurar"><img src="img/IconesPesquisaTrab.png" height="30"></label>
+                <input id="procurar" type="text" name="Procurar" placeholder="  Procurar no site"  >
+            </form>
+
+            <div id="usuario"> 
+                <a href="login.html">Login</a>
+            </div>
+            
+
+        </div>
+
+        <div class="containerSecundario">  
+            <!-- Barra de menu2 -->
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cursos.html">Cursos</a></li>
+              <li><a href="quem-somos.html">Quem somos</a></li>
+              <li><a href="fale-conosco.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>	
+
+	<main>
+        <img src="img/faleConosco.png" width="500" id="fale-conosco">
+        <p> Mande-nos sua duvida ,reclamação ou até mesmo um elogio para nossa equipe, responderemos em ate 72 horas.</p>
+        
+        <form id="contato">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label class="com-icone" for="nome">Nome:</label>
+            <input  id="nome" type="text" placeholder="Digite seu nome." name="nome" pattern="[a-zA-Z ']{4,}" title="O nome precisa de no minimo 4 caracteres." required autofocus>
+            <label class="com-icone" for="email">Email:</label>
+            <input  id="email" name="email" placeholder="Ex.:abc123@exemplo.com" type="email" required>
+        </fieldset>
+        <fieldset id="assunto-fieldset">
+            <legend >Assunto:</legend>
+            <label for="Duvidas">Duvida:</label>
+            <input id="Duvidas" name="assunto" type="radio" value="Duvidas">
+            <label for="Reclamaçoes">Reclamaçoes:</label>
+            <input id="Reclamaçoes" name="assunto" type="radio" value="Reclamaçoes">
+            <label for="Elogios">Elogios:</label>
+            <input id="Elogios" name="assunto" type="radio" value="Elogios">
+            <fieldset>
+                <label for="Outro">Outro:</label>
+                <input id="Outro" name="assunto" type="radio" value="Outro">
+                <input type="text" name="assunto-outro" placeholder="Qual outro assunto?">
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="msg" placeholder="Digite aqui sua mensagem para mim." rows="5" cols="30"></textarea>
+        </fieldset>    
+        <button type="submit">Enviar mensagem</button>
+        </form>
+	</main>
+
+	<footer>
+        <p>Para entrar em contato conosco, <a id="clique-aqui" href="fale-conosco.html">clique aqui</a></p>
+        <p id="copy"> &copy;StudiAntes 2017 </p>
+    </footer>
+</body>
+</html>

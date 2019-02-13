@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cursos</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Resumo Pagina">
+	<meta name="keywords" content=" Palavras Chaves ">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/cursos.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="containerPrincipal" id="topo"> 
+			<!-- Barra de menu 1 -->
+			<a id="logo-logo" href="index.html"><img src="img/LogoSemCaderno.png"></a>
+
+			<form id="procura"> <!-- Barra de pesquisa -->
+                
+                <label for="procurar"><img src="img/IconesPesquisaTrab.png" height="30"></label>
+				<input id="procurar" type="text" name="Procurar" placeholder="  Procurar no site"  >
+			</form>
+
+			<div id="usuario"> 
+                <a href="login.html">Login</a>
+            </div>
+			
+
+		</div>
+
+		<div class="containerSecundario">  
+			<!-- Barra de menu2 -->
+			<ul id="menu">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="cursos.html">Cursos</a></li>
+			  <li><a href="quem-somos.html">Quem somos</a></li>
+			  <li><a href="fale-conosco.html">Contato</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div id="titulo-cursos">
+			<div><img src="img/Cursos.png" width="682" height="182"></div>
+			<div>
+				<ul id="lista-buttons">
+					<li id="enem-a"><a href="#enem">Enem</a></li>
+					<li id="concursos-a"><a href="#concursos">Concursos</a></li>
+					<li id="vestibulares-a"><a href="#vestibulares">Vestibulares</a></li>
+				</ul>
+			</div>
+		</div> 
+		<!-- ENEM -->
+		<div class="cursos cor-enem" id="enem">
+			<div class="abertura">
+				<img src="img/enem.png">
+				<p>Nosso método de ensino para os estudantes que buscam estudar para prova do enem, conta com vídeo aula gravada, lista de exercícios, correções dos exercícios, correção de redação e aulas ao vivo. Abordamos todas as matérias que o enem trabalha em cima, assim você tem um estudo completo. Alguns recursos podem variar com os planos escolhido pelo estudante. Assim ele pode escolher qual plano ele se encaixa melhor, são eles. </p>
+			</div>
+			<div class="pacotes">
+				<p>Nossos pacotes:</p>
+				<ul>
+					<li>Plano Basic</li>
+					<li>Plano Avançado</li>
+					<li>Plano Full Edition</li>
+				</ul>
+				<a class="cor-enem" href="enem.html">Confira os detalhes</a>
+			</div>
+			<ul id="voltar-top-ajuste">
+				<li><a id="voltar-topo" href="#topo">Voltar ao topo</a></li>
+			</ul>
+		</div>
+		<!-- CONCURSOS -->
+		<div class="cursos cor-concursos" id="concursos">
+			<div class="abertura">
+				<img src="img/Concursos.png">
+				<p>Para você que está se preparando para realizar prova de concursos, temos três pacotes de ensino e também você escolhe qual concurso você está escolhendo, assim o Studiantes te direciona para os estudos específico dessa área. De forma pratica e objetiva, assim você fica mais preparado e seguro para realizar a sua prova.</p>
+			</div>
+			<div class="pacotes">
+				<p>Nossos pacotes:</p>
+				<ul>
+					<li>Plano Basic</li>
+					<li>Plano Avançado</li>
+					<li>Plano Full Edition</li>
+				</ul>
+				<a class="cor-concursos" href="concursos.html">Confira os detalhes</a>
+			</div>
+			<ul id="voltar-top-ajuste">
+				<li><a id="voltar-topo" href="#topo">Voltar ao topo</a></li>
+			</ul>
+		</div>    
+		<!-- VESTIBULARES -->
+		<div class="cursos cor-vestibulares" id="vestibulares">
+			<div class="abertura">
+				<img src="img/Vestibulares.png">
+				<p>Desenvolvemos um cronograma de estudos para ajudar os estudantes no direcionamento das disciplinas: Química, História, Matemática, Português (Literatura e Redação), Geografia, Biologia e Física. Assim o estudante pode escolher o plano mais adequado para ele. Podendo ter acesso gratuito mas porem limitado, pacotes com horas estipuladas ou o mais completo que é o ilimitado que pode usufruir de todo o conteúdo.</p>
+			</div>
+			<div class="pacotes">
+				<p>Nossos pacotes:</p>
+				<ul>
+					<li>Plano Basic</li>
+					<li>Plano Avançado</li>
+					<li>Plano Full Edition</li>
+				</ul>
+				<a class="cor-vestibulares" href="vestibulares.html">Confira os detalhes</a>
+			</div>
+			<ul id="voltar-top-ajuste">
+				<li><a id="voltar-topo" href="#topo">Voltar ao topo</a></li>
+			</ul>
+		</div>
+	</main>
+	<footer>
+		<p>Para entrar em contato conosco, <a id="clique-aqui" href="fale-conosco.html">clique aqui</a></p>
+        <p id="copy"> &copy;StudiAntes 2017 </p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+	<script>
+	var $doc = $('html, body');
+	$('a').click(function() {
+	    $doc.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+claro a escuro
+
+VERDE
+
+#ceede8 /* cor do corpo */
+#86d3c9 /* cor do menu */
+#33b8a5 /* cor do cabecalho padrão */
+#01a78f /* Cor do Concurso */
+
+AZUL BEBE 
+
+#cde9f5
+#80cde7
+#32a6d7
+#0091d0	/*Cor do Vestibular */
+
+AZUL MARINHO
+
+#cfddea
+#85add1
+#3576b6
+#0154a2	/* Cor do Enem*/
+
+
+140
+252 10%
+400 40%
+
+
+621 * 339
